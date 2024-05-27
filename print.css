@@ -1,0 +1,94 @@
+/* Styles for Cash Memo */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.cash-memo {
+    width: 50%;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+.cash-memo h1{
+    color: rgb(37, 150, 190);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+ .shop-info{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 12px;
+}
+ .subtitle {
+    text-align: center;
+    background-color: #1f8cb5;
+    border-radius: 10px;
+    background-size: contain;
+    color: #fff;
+}
+.customer-info{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:  rgba(133, 186, 247, 0.9);
+    background-size: contain;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+}
+.customer-info p{
+    margin-left: 20px;
+    margin-right: -20px;
+}
+
+.customer-info, .total-info {
+    margin-bottom: 20px;
+
+}
+
+.product-table {
+    overflow-x: auto;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #333333b8;
+    padding: 8px;
+}
+
+.product-table th {
+    background-color: #9dffa3;
+   
+   
+}
+.total-info {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.thanks {
+    text-align: center;
+
+    font-style: italic;
+   
+    
+}
+
+p {
+    margin: 5px 0;
+}

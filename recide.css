@@ -1,0 +1,150 @@
+/* Center the content vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the cash memo */
+  .cash-memo {
+    width: 50%;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  /* Style for the logo container */
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-bottom: 50px; */
+    
+  }
+  
+  /* Style for the logo */
+  .logo {
+    width: 50px;
+    height: 40px;
+    /* margin-right: 10px; */
+  }
+  
+  /* Style for the logo name */
+  .logo-name {
+    font-size: 26px;
+    font-weight: bold;
+    /* margin: 0; */
+    color: rgb(90, 180, 190);
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Style for the shop info */
+  .shop-info {
+    margin-bottom: 20px;
+    margin-top: -1px;
+    font-size: 15px;
+    margin-left: 80px;
+  }
+  .shop-contact{
+    margin-bottom: 20px;
+    margin-top: -15px;
+    font-size: 17px;
+    margin-left: 130px;
+  }
+  /* Style for customer info */
+  .customer-info{
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color:  rgba(133, 186, 247, 0.9);
+    max-height: 90px;
+    background-size: contain;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  .customer-info p{
+    margin-left: 20px;
+    margin-bottom: 2px;
+    margin-top:10px ;
+  }
+  
+  /* Style for subtitle */
+  .subtitle {
+    text-align: center;
+    background-color: #1f8cb5;
+    max-width: 200px;
+    border-radius: 10px;
+    background-size: contain;
+    color: #fff;
+    margin-bottom:20px ;
+    margin-left: 200px;
+  }
+  
+  /* Style for product table */
+  .product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }.product-table {
+    overflow-x: auto;
+  }
+  
+  .product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #333333b8;
+    padding: 8px;
+  }
+  .product-table th {
+    background-color: #8774e1;
+    color: #fff;
+  }
+  
+  /* Style for total info */
+  .total-info {
+    margin-top: 20px;
+    border: 1px solid #333333b8;
+    background-color:#f9f9f9 ;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin-left: 300px;
+  }
+  .table-like {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  /* Style for thanks message */
+  .thanks {
+    margin-top: 20px;
+    margin-left: 170px;
+    background-color: #1f8cb5;
+    color: #fff;
+    border-radius: 0.3rem;
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+  }

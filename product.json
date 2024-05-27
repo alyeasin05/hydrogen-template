@@ -1,0 +1,71 @@
+
+[
+    {
+        "id": 1,
+        "name": "plastic chair",
+        "price": 50,
+        "image": "images/plastic chair.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Round Table",
+        "price": 200,
+        "image": "images/Round Table.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Full plat kacher",
+        "price": 10,
+        "image": "images/full plat kacher.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Rice dish",
+        "price": 20,
+        "image": "images/Rice dish.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Glass",
+        "price": 5,
+        "image": "images/Glass.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jog",
+        "price": 20,
+        "image": "images/jog.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Curry Bati",
+        "price": 20,
+        "image": "images/Curry bati.webp "
+    },
+    {
+        "id": 8,
+        "name": "Gamla Ball",
+        "price": 20,
+        "image": "images/gamla bal.jpeg "
+    },
+    {
+        "id": 9,
+        "name": "Spoon",
+        "price": 5,
+        "image": "images/Spoon.jpg "
+    },
+    {
+        "id": 10,
+        "name": "Patil",
+        "price": 200,
+        "image": "images/Patil.jpeg "
+    },
+    {
+        "id": 11,
+        "name": "Stand Fan",
+        "price": 300,
+        "image": "images/stand fan.jpeg "
+    }
+    
+]
